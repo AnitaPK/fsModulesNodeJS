@@ -62,7 +62,7 @@ fs.readFile('file1.txt', 'UTF8', (err, data)=>{
     }
 })
 
-// fs.writeFileSync('file2.txt','This is file two content','utf8')``
+fs.writeFileSync('file2.txt','This is file two content','utf8')``
 
 // fs.writeFile('file2.txt','second line for file two content','utf8',()=>{
 //     console.log('data added successfully');
